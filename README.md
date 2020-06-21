@@ -1,1 +1,3 @@
 # google-homepage
+
+I'm going through the Odin Project curriculum. Project #1 is trying to re-create the Google homepage! Let's do it...
