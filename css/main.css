@@ -1,0 +1,64 @@
+
+button {
+    color: darkslategray;
+    padding: 10px;
+    border: 1px solid transparent; 
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button:hover {
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+
+.container {
+    padding-top: 25px;
+    display: grid;
+    grid-template-rows: 110px 42px 30px;
+    grid-gap: 20px;
+}
+
+#logo {
+    justify-self: center;
+    height: 100%;
+    width: auto;
+}
+
+form {
+    justify-self: center;
+}
+
+#search-form {
+    border-radius: 20px; 
+    border: 1px solid lightgray;
+    width: 500px;
+    height: 100%;
+}
+
+#btns {
+    justify-self: center;
+}
+
+#btn1 {
+    
+}
+
+#btn2 {
+    
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+.nav-ul {
+    display: grid;
+    grid-template-rows: 30px;
+    grid-template-columns: repeat(auto-fill, 100px);
+}
+
+.nav-item {
+    padding:20px;
+}
