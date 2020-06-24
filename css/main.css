@@ -1,10 +1,22 @@
 
+a {
+    color: #444444; 
+    text-decoration: none; 
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
 button {
     color: darkslategray;
     padding: 10px;
     border: 1px solid transparent; 
     border-radius: 4px;
     font-size: 14px;
+    margin: 0 5px 0 5px;
 }
 
 button:hover {
@@ -14,7 +26,7 @@ button:hover {
 }
 
 .container {
-    padding-top: 25px;
+    padding-top: 100px;
     display: grid;
     grid-template-rows: 110px 42px 30px;
     grid-gap: 20px;
@@ -22,8 +34,6 @@ button:hover {
 
 #logo {
     justify-self: center;
-    height: 100%;
-    width: auto;
 }
 
 form {
@@ -39,6 +49,7 @@ form {
 
 #btns {
     justify-self: center;
+    
 }
 
 #btn1 {
@@ -51,14 +62,32 @@ form {
 
 nav {
     margin-bottom: 30px;
+    padding:20px;
 }
 
 .nav-ul {
     display: grid;
     grid-template-rows: 30px;
-    grid-template-columns: repeat(auto-fill, 100px);
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+}
+
+.nav-left {
+    justify-self: start;
+}
+
+.nav-right {
+    justify-self: end;
 }
 
 .nav-item {
-    padding:20px;
+    
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.app-icon {
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
 }
