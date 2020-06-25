@@ -26,9 +26,9 @@ button:hover {
 }
 
 .container {
-    padding-top: 100px;
+    padding-top: 50px;
     display: grid;
-    grid-template-rows: 110px 42px 30px;
+    grid-template-rows: 100px 45px 30px;
     grid-gap: 20px;
 }
 
@@ -38,37 +38,51 @@ button:hover {
 
 form {
     justify-self: center;
+    position: relative;
 }
 
 #search-form {
     border-radius: 20px; 
     border: 1px solid lightgray;
-    width: 500px;
+    width: 550px;
     height: 100%;
+}
+
+#search-form:hover {
+    -webkit-appearance: none;
+    box-shadow: 0 0 6px lightgray;
+}
+
+.search-icon {
+    color: lightgray; 
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 15px;
+}
+
+.microphone-icon {
+    position: absolute;
+    width: 24px;
+    right: 18px;
+    top: 11px;
 }
 
 #btns {
     justify-self: center;
-    
-}
-
-#btn1 {
-    
-}
-
-#btn2 {
-    
+    margin-top: 10px;
 }
 
 nav {
     margin-bottom: 30px;
-    padding:20px;
+    padding: 17px 28px 17px 28px;
 }
 
 .nav-ul {
     display: grid;
+    align-items: center;
     grid-template-rows: 30px;
-    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-columns: 50px 50px auto 60px 60px 30px 50px;
 }
 
 .nav-left {
@@ -88,6 +102,9 @@ nav {
 }
 
 .app-icon {
-    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
-    background-size: 528px 68px;
+    color: 666666;
+}
+
+.app-icon:hover {
+    color: 000000;
 }
