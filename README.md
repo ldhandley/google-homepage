@@ -1,3 +1,7 @@
 # google-homepage
 
-I'm going through the Odin Project curriculum. Project #1 is trying to re-create the Google homepage! Let's do it...
+**Goal**
+Re-create the Google homepage using HTML & CSS.
+
+**Reflection**
+I was already pretty comfortable with HTML from previous software work, but this project was good practice in CSS, which I have less experience writing. Specifically, I got practice in CSS Grid. I have done many previous projects using Bootstrap, which I think makes grid work easier, but CSS Grid seems like a more multi-purpose, open-ended tool that may come in handy in the future.
